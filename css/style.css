@@ -1,0 +1,286 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Global css*/
+body{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/*Header section*/
+.header-section{
+	background: #303030;
+
+}
+.header-section ul{
+
+}
+.header-section li{
+	font-size: 24px;
+    margin-left: 30px;
+    
+}
+.header-section li a{
+	color: #ffffff;
+}
+.header-section li a:hover{
+	color: #e8631c;
+}
+
+/*Banner section*/
+.banner-section{
+	padding: 64px 0px;
+	background: url(../img/banner.png);
+	background-size: cover;
+}
+.banner-section h1{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400;
+    margin-top: 236px;
+}
+.banner-section p{
+    padding: 20px 235px 0px 0px;
+    color: #fff;
+    font-size: 19px;
+    margin: 20px 0px;
+}
+.banner-section button{
+    padding: 12px 43px;
+    margin-top: 10px;
+    font-size: 18px;
+    background: #e8631c;
+    letter-spacing: 1px;
+    border: none;
+    color: #fff;
+}
+.banner-section button:hover{
+	background: #EEB739;
+	color: black;
+}
+
+/*Dance section*/
+.dance-section{
+    padding: 100px 0px;
+    background: #e8631c;
+}
+.dance-section .header h1{
+    text-align: center;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.dance-section .header p{
+    text-align: center;
+    padding: 20px 316px;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.dance-section .one{
+	background: #303030;
+}
+.dance-section .one img{
+    width: 100%;
+}
+.dance-section .one h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 400;
+}
+.dance-section .one p{
+	text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 46px;
+    letter-spacing: 1px;
+    padding-bottom: 26px;
+}
+
+/*Price section*/
+.price-section{
+	background: #303030;
+	padding: 100px 0px;
+}
+.price-section .header h1{
+    text-align: center;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.price-section .header p{
+    text-align: center;
+    padding: 20px 316px;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.price-section .one{
+	text-align: center;
+    background: #e8631c;
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+.price-section .one h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 500;
+}
+.price-section .one p{
+	text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 46px;
+    letter-spacing: 1px;
+    padding-bottom: 26px;
+}
+.price-section .one button{
+    padding: 12px 140px;
+    margin-top: 10px;
+    font-size: 18px;
+    background: #303030;
+    letter-spacing: 1px;
+    border: none;
+    color: #fff;
+}
+
+/*Counter section*/
+.counter-section{
+	padding: 100px 0px;
+	background: #e8631c;
+}
+.counter-section .header h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 40px;
+}
+.counter-section .header p{
+    text-align: center;
+    padding: 20px 316px;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.counter-section .one{
+	text-align: center;
+	margin-top: 125px;
+}
+.counter-section .one h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.counter-section .one h3{
+    color: #fff;
+    font-weight: 300;
+}
+
+/*Subcribe section*/
+.subcribe-section{
+	padding: 100px 0px;
+	background: url(../img/subcribe.png);
+	background-size: cover;
+}
+.subcribe-section .header h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 40px;
+}
+.subcribe-section .header{
+	text-align: center;
+}
+.subcribe-section .header p{
+    text-align: center;
+    padding: 20px 316px;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.subcribe-section .header input{
+    margin-left: 425px;
+    width: 35%;
+    margin-top: 70px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.subcribe-section .header button{
+    display: block;
+    margin: 20px auto;
+}
+.subcribe-section .header button{
+    padding: 8px 44px;
+    margin-top: 25px;
+    font-size: 18px;
+    border: 1px solid black;
+    background: #e8631c;
+    letter-spacing: 1px;
+    border: none;
+    color: #fff;
+}
+
+
+/*Footer part*/
+.footer-section{
+	padding: 30px 0px;
+	background-color: #303030;
+}
+.footer-section p{
+	color: #fff;
+    margin: 6px 0 0 100px;
+}
+.footer-section ul li{
+	list-style: none;
+}
+.footer-section ul li i{
+    display: inline;
+    float: right;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 12px;
+}
+.footer-section ul li i:hover{
+    color: #F2622C;
+}
+
+
+/*Mobile devices*/
+@media (min-width: 320px) and (max-width: 576px){
+	.banner-section h1{margin-top: 0px; font-size: 50px; text-align: center;}
+	.banner-section p {padding: 20px 40px;color: #fff; font-size: 19px;text-align: center; margin: 20px 0px;}
+	.banner-section button{padding: 10px 20px; margin-left: 90px; }
+	.dance-section .header h1{font-size: 40px;}
+	.dance-section .header p{padding: 20px 10px; font-size: 19px; letter-spacing: 0px;}
+	.price-section .header h1{font-size: 40px;}
+	.price-section .header p{padding: 20px 14px; font-size: 19px;}
+	.price-section .one{margin-top: 22px;}
+	.counter-section .header h1{font-size: 40px;}
+	.counter-section .header p{padding: 20px 0px; letter-spacing: 1px;}
+	.counter-section .one{margin-top: 50px;}
+	.counter-section .one h1{font-size: 40px;}
+	.subcribe-section .header h1{font-size: 40px;}
+	.subcribe-section .header p{padding: 20px 0px; letter-spacing: 1px;}
+	.subcribe-section .header input{width: 90%; margin-left: 23px;}
+	.subcribe-section .header button{border-radius: 5px;}
+	.footer-section p{margin: 0px 0 0 8px;} 
+	.footer-section ul li i{float: left; margin-left: 10px;}
+	.price-section .one button{padding: 12px 114px;}
+
+}
